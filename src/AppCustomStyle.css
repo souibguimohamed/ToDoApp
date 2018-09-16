@@ -1,0 +1,49 @@
+.App{
+    color:#FFFFFF;
+	min-height: 1000px;
+	padding: 15px;
+	background: linear-gradient(135deg, rgb(30, 187, 202), rgb(235, 188, 167));
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+.App h1{
+	color:#f39c12;
+	text-shadow: -5px 0 #2c3e50, 0 2px #2c3e50, 2px 0 #2c3e50, 0 -2px #2c3e50;
+	margin-bottom: 45px;
+}
+.content{
+	text-align: center;
+}
+.headerTab{
+	/*color:#d35400;*/
+    font-weight: 600;
+}
+
+.item,.headItem{
+	padding: 7px;
+	background: #3498db;
+	border: 1px solid white;
+}
+
+
+
+.TheForm{
+	margin-top: 200px;
+}
+label{
+	color: #2f3640;
+	font-size: 24px;
+}
+input[type='text'],
+input[type='text']:focus,
+input[type='text']:active{
+	border: 2px solid #c0392b; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+}
+input[type='text']:hover{
+	border: 2px solid #8e44ad; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+}
